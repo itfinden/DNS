@@ -1,6 +1,6 @@
 <?php
 
-#$cmd_inicial = 'exiqgrep -i -r root@cpanel01.datasur.com | xargs exim -Mrm';
+#$cmd_inicial = 'exiqgrep -i -r root@cpanel01.itfinden.com | xargs exim -Mrm';
 #$num_mails_inicial = exec($cmd_inicial);
 
 $cmd =  'exim -bpr | grep "<" | wc -l';
